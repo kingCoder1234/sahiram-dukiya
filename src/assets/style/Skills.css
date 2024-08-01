@@ -1,0 +1,26 @@
+/* Skills.css */
+
+.skill-card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+}
+
+.skill-card .card-title {
+  font-size: 1.5rem;
+  color: #343a40;
+}
+
+.skill-card .card-text {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.skill-image {
+  max-height: 100px;
+  object-fit: cover;
+}
